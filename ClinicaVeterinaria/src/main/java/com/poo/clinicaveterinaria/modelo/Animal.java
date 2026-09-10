@@ -9,5 +9,10 @@ package com.poo.clinicaveterinaria.modelo;
  * @author Andres
  */
 public class Animal {
-            
+    private String nombre;
+    private String especie;
+    private int edad;
+    private int peso;
 }
+
+
