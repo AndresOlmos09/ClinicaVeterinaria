@@ -8,6 +8,6 @@ package com.poo.clinicaveterinaria.modelo;
  *
  * @author Andres
  */
-public class Mascota {
+public class Mascota extends Animal{
     
 }
