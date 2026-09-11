@@ -31,9 +31,10 @@ public class ClinicaController {
         propietarios.add(p2);
 
         // 2. Crear mascotas y asociarlas a sus propietarios
-        Mascota m1 = new Mascota("Rocky", "Perro", 3, 12.5, "Labrador", p1);
-        Mascota m2 = new Mascota("Michi", "Gato", 2, 4.2, "Siames", p1);
-        Mascota m3 = new Mascota("Firulais", "Perro", 5, 18.0, "Criollo", p2);
+        // 2. Crear mascotas y asociarlas a sus propietarios
+        Mascota m1 = new Mascota("Labrador", p1, "Rocky", "Perro", 3, 12);
+        Mascota m2 = new Mascota("Siames", p1, "Michi", "Gato", 2, 4);
+        Mascota m3 = new Mascota("Criollo", p2, "Firulais", "Perro", 5, 18);
 
         p1.agregarMascota(m1);
         p1.agregarMascota(m2);
