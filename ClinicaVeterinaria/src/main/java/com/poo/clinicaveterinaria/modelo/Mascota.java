@@ -10,11 +10,11 @@ package com.poo.clinicaveterinaria.modelo;
  */
 public class Mascota extends Animal{
     private String raza;
-    private String propietario;
+    private Propietario propietario;
     
     
     //Constructor
-    public Mascota(String raza, String propietario, String nombre, String especie, int edad, int peso) {
+    public Mascota(String raza, Propietario propietario, String nombre, String especie, int edad, int peso) {
         super(nombre, especie, edad, peso);
         this.raza = raza;
         this.propietario = propietario;
@@ -29,11 +29,11 @@ public class Mascota extends Animal{
         this.raza = raza;
     }
 
-    public String getPropietario() {
+    public Propietario getPropietario() {
         return propietario;
     }
 
-    public void setPropietario(String propietario) {
+    public void setPropietario(Propietario propietario) {
         this.propietario = propietario;
     }
     
