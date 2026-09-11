@@ -46,6 +46,6 @@ public class Veterinario {
     }
     
     public void recetar(Consulta c, Medicamento m){
-        consulta.agregarMedicamento(c);
+        c.agregarMedicamento(m);
     }
 }
